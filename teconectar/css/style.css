@@ -1,0 +1,64 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Martel:wght@800&display=swap'); 
+
+ *,* ::before, ::after{
+     -webkit-box-sizing:border-box ;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+ 
+ 
+ html{
+  scroll-behavior: smooth;
+
+
+ }
+ body{
+
+    font-family:Martel; 
+   /*  background-attachment: fixed;
+    background-image: url("../imagens/mesa.jpg");    */
+
+/*  background-color:#D2E603; */
+
+ }
+
+#fixo{
+
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+
+}
+
+
+.album {
+
+  background-size:cover;
+}
+
+.posicao{
+         
+  display: flex;
+  flex-direction: row;
+  align-items:center; 
+
+}
+
+
+  #album {
+  width:600px;
+  height: 500px;
+  margin:5% auto; 
+  
+  
+}
+
+/* .bg-light{
+  background-image: url("../imagens/fundo93.png");  
+
+} */
+
+a{
+  color:white;
+}
